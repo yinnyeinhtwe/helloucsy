@@ -1,0 +1,112 @@
+section{
+	padding:5rem 10%;
+}
+.header{
+	background-color:floralwhite ; 
+	float: right;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	box-shadow: var(-box-shadow);
+	position: sticky;
+	z-index:1000;
+}
+.header .bar a{
+	text-align: right;
+	margin-left: 1cm;
+	color: black;
+	font-weight:bolder;
+}
+.header .bar a:hover{
+	color: white;
+}
+.home{
+	padding:0;
+}
+.home .slide{
+	min-height: 100vh;
+	background-size:cover !important;
+	background-position: center !important;
+	position: relative;
+	align-items:center;
+	display: flex;
+
+}
+.home .slide::before{
+	content: '';
+	position: absolute;
+	top: 0;left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.3;
+	justify-content: center;
+}
+.home .slide .content{
+	text-align: center;
+	width: 70rem;
+	color: white;
+}
+.home .content h2{
+	color: var(--light-white);
+	display: block;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.order{
+	background-color: peru;
+}
+.order .title h1{
+	text-align: center;
+	color: floralwhite;
+	font-size: 4rem;
+}
+.order p{
+	font-size: 19px;
+}
+.order form{
+	padding: 2rem;
+	background: white;
+}
+.order form .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.order form .box-container .box{
+	flex: 1 1 1rem;
+}
+.order form .box-container .box .inputbox input,
+.order form .box-container .box .inputbox textarea{
+	width: 100%;
+	padding: 0.5rem 0;
+	font-size: 1rem;
+}
+.order form .box-container .box .inputbox textarea:placeholder{
+	background-color: white;
+}
+.order form .box-container .box .inputbox input:placeholder{
+	background-color: white;
+}
+.order form .box-container .box .inputbox textarea:focus{
+	background-color: #5C5C5C;
+	color: white;
+}
+.order form .box-container .box .inputbox input:focus{
+	background-color: #5C5C5C;
+	color: white;
+}
+button {
+	float: right;
+  background-color: peru;
+  border: solid;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

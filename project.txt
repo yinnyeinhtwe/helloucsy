@@ -1,0 +1,23 @@
+.order{
+	background-color: peru;
+}
+.order .title{
+	text-align: center;
+	color: floralwhite;
+}
+.order form{
+	padding: 2rem;
+	background: white;
+}
+.order form .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+<button onclick="myFunction()">Order Now</button>
+		<script>
+			function myFunction() {
+  			alert("Order Completed!");
+			}
+		</script>
